@@ -1,0 +1,172 @@
+@media (max-width:1920px) {
+	.container {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.container__header {
+		margin: 60px;
+		text-align: center;
+	}
+
+	.header__paragraph {
+		padding:20px;
+		margin: 0 auto;
+	}
+
+	.paragraph--width {
+		width: 65%;
+	}
+
+	.paragraph--lineh {
+		line-height: initial;
+	}
+
+	.font--size {
+		font-size: 46px;
+	}
+
+	.weight--200 {
+		font-weight: 200;
+	}
+
+	.weight--600 {
+		font-weight: 600;
+	}
+
+	.w-100 {
+		width: 100%;
+	}
+
+	.w-40 {
+		width: 40%;
+	}
+
+	.item-grow {
+		flex-grow: 1;
+	}
+
+	.f-center {
+		align-self: center
+	}
+
+	.f-stretch {
+		align-self: stretch;
+	}
+
+	.flex-column {
+		flex-direction: column;
+	}
+
+	.padding--15 {
+		padding-bottom: 15px;
+	}
+
+	.padding--30 {
+	padding: 30px;
+	}
+
+	.margin--30 {
+	margin: 30px;
+	}
+
+	.color--grayish-blue {
+		color: var(--grayish-blue);
+	}
+
+	.color--light-gray {
+		color: var(--light-gray);
+	}
+
+	.color--dark-blue {
+		color: var(--very-dark-blue);
+	}
+
+	main {
+		display: flex;
+		padding: 15px;
+		width: 100%;
+		flex: 1;
+		margin: 0 auto;
+	}
+
+	.main__card {
+	overflow: hidden;
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-shadow: 2px 2px 30px #ddd;
+	}
+
+	.card--border-red {
+		border-top: 4px solid var(--red);
+	}
+	.card--border-cyan {
+		border-top: 4px solid var(--cyan);
+	}
+	.card--border-orange {
+		border-top: 4px solid var(--orange);
+	}
+	.card--border-blue {
+		border-top: 4px solid var(--blue);
+	}
+
+	.image--padding {
+		text-align: end;
+		margin-top: 30px;
+	}
+
+.footer__container {
+	font-size: 12px;
+	text-align: center;
+	padding: 5px;
+}
+	.footer__container a {
+	color: var(--red);
+}
+
+}
+
+@media (max-width: 375px) {
+	main {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.w-40 {
+		width: auto;
+	}
+
+	.padding--30 {
+	padding: 15px;
+	}
+
+	.margin--30 {
+	margin: 15px;
+	}
+
+	.font--size {
+	font-size: 20px;
+	}
+
+	.paragraph--width {
+		width: 100%;
+	}
+
+	.header__paragraph {
+		padding: 30px 0 0 0;
+		margin: 0 auto;
+	}
+
+	.container__header {
+		margin: 60px 0 60px 0;
+		text-align: center;
+	}
+
+	.footer__container {
+	font-size: 11px;
+	text-align: center;
+	padding: 0;
+}
+}
